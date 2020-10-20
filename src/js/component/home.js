@@ -7,13 +7,13 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home() {
 	return (
 		<div className="text-center mt-5">
-			<NavBar>n</NavBar>
+			<nav>n</nav>
 			<div className="d-flex row text-align-center">
 				<header>h</header>
-				<Jumbotton className="col-2">c1</Jumbotton>
-				<Jumbotton className="col-2">c2</Jumbotton>
-				<Jumbotton className="col-2">c3</Jumbotton>
-				<Jumbotton className="col-2">c4</Jumbotton>
+				<div className="card col-2">c1</div>
+				<div className="card col-2">c1</div>
+				<div className="card col-2">c1</div>
+				<div className="card col-2">c1</div>
 			</div>
 			<footer>f</footer>
 		</div>
