@@ -6,7 +6,7 @@ import desertImage from "../../img/desert.jpg";
 import soldierImage from "../../img/soldier.jpg";
 import spaceImage from "../../img/space.jpg";
 
-export function ArticleCard() {
+export function ArticleCards() {
 	return (
 		<div className="row">
 			<div className="card col-3">
