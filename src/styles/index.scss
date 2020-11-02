@@ -11,29 +11,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");
+    background-repeat: repeat;
+    background-size: 25rem 25rem;
+}
+.bodyLayout{
+    margin-top: 3rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+}
 .jumbotron {
-    background-image: url("https://i.ytimg.com/vi/BPfFoG5DRE4/maxresdefault.jpg");
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/databank_rancor_01_169_251b682f.jpeg?region=0%2C49%2C1560%2C780");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4rem 6rem 5.5rem;
-    border-radius: 1rem;
+    border-radius: 4rem;
     text-transform: uppercase;
-    animation: flicker 1.5s infinite alternate; 
+    animation: flicker 3s infinite alternate;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .jumbotron h1{
-    color: white;
-    // font-size: 4rem;
+    color: yellow;
+    font-size: 3rem;
+    font-weight: bold;
 }
-.jumbotron p{
+.subtitle{
     color: white;
     font-size: 1.3rem;
+    text-transform:initial;
+}
+
+.summary{
+    color: white;
+    font-size: 1.1rem;
+    text-transform:initial;
 }
 
 /* Animación del neon */
 @keyframes flicker {
     
-    0%, 19%, 21%, 23%, 25%, 53%, 56%, 100% {
+    0%, 80%, 100% {
       
         box-shadow:
             0 0 .5rem #fff,
@@ -53,5 +74,12 @@
 :root {
   
   /* Color borde del jumbotron */
-  --neon-border-color: rgb(226, 21, 21);
+  --neon-border-color: rgba(199, 18, 18, 0.726);
+}
+
+.articles{
+    padding: 2rem;
+}
+.card{
+    border: none;
 }

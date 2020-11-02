@@ -7,6 +7,8 @@ import "bootstrap";
 
 //include your index.scss file into the bundle
 import "../styles/index.scss";
+import "../styles/footer.scss";
+import "../styles/navbar.scss";
 
 //import your own components
 import { Home } from "./component/home.js";

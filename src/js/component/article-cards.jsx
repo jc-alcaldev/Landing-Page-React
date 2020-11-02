@@ -28,7 +28,7 @@ export function ArticleCards() {
 					</p>
 					<a
 						href="https://www.fakingstarwars.net/2016/10/20/top-10-reasons-leia-ignored-chewbacca-returned-starkiller-base/"
-						className="btn btn-primary">
+						className="btn btn-warning">
 						Read more
 					</a>
 				</div>
@@ -49,7 +49,7 @@ export function ArticleCards() {
 					</p>
 					<a
 						href="https://www.fakingstarwars.net/2020/06/25/palpatine-defunding-death-star-3-will-lead-to-slower-more-painful-deaths/"
-						className="btn btn-primary">
+						className="btn btn-warning">
 						Read more
 					</a>
 				</div>
@@ -65,7 +65,7 @@ export function ArticleCards() {
 					</p>
 					<a
 						href="https://www.fakingstarwars.net/2016/08/22/full-episode-viii-plot-leak/"
-						className="btn btn-primary">
+						className="btn btn-warning">
 						Read more
 					</a>
 				</div>
@@ -83,7 +83,7 @@ export function ArticleCards() {
 					</p>
 					<a
 						href="https://www.fakingstarwars.net/2017/08/07/kylo-ren-intervention/"
-						className="btn btn-primary">
+						className="btn btn-warning">
 						Read more
 					</a>
 				</div>
