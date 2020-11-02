@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap.scss";
+.footer{
+    
+    height: 4rem;
+    border:#e0a714;
+    background: black;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.footer img{
+    height: 4rem;
+}
+.footer a{
+    margin-right: 50%;
+}
